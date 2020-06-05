@@ -20,6 +20,11 @@
 	
 	<properties>
    		<docker.image.prefix>rps</docker.image.prefix>
+		 <!-- sonar cloud properties -->
+    <sonar.projectKey>BrahmanapallyNagaraju_spring-petclinic</sonar.projectKey>
+    <sonar.organization>brahmanapallynagaraju</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.login>f1c0979d1967c559c4ef46b503182b92c48fa4db</sonar.login>
 	</properties>
 	<build>
 	    <plugins>
