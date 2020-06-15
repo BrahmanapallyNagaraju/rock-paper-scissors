@@ -7,7 +7,7 @@ def emailBuildStatus(targetMail) {
 
 pipeline {
 	
-	agent { any }
+	agent  any 
 
 	options {
 		timestamps()
