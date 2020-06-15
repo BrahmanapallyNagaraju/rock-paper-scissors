@@ -39,6 +39,11 @@ pipeline {
 				}
 			}
 		}
+		stage ('publish junit reports') {
+		    steps {
+		        junit "target/surefire-reports/*.xml"
+		    }
+		}
 	}
 	post {
 		always {
