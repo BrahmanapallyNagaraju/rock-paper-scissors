@@ -68,4 +68,13 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-75-229-releases</name>
+        <url>http://3.226.242.132:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
+  
 </project>
