@@ -69,6 +69,7 @@
     </pluginManagement>
   </build>
   
+  <!--
   <distributionManagement>
     <repository>
         <id>central</id>
@@ -79,6 +80,20 @@
         <id>snapshots</id>
         <name>ip-172-31-75-229-snapshots</name>
         <url>http://3.226.242.132:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+-->
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory.epam.com-releases</name>
+        <url>https://artifactory.epam.com/artifactory/EPM-ESS</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory.epam.com-snapshots</name>
+        <url>https://artifactory.epam.com/artifactory/EPM-ESS</url>
     </snapshotRepository>
 </distributionManagement>
   
