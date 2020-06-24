@@ -7,7 +7,7 @@ def emailBuildStatus(targetMail) {
 
 pipeline {
 	
-	agent  any 
+	agent  { label "linux_slave_node" }
 
 	options {
 		timestamps()
